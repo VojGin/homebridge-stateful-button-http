@@ -15,7 +15,7 @@ function StatefulHttpButton(log, config) {
   this.name = config.name
   this.port = config.port
   this.onStatus = false
-  this._service = new Service.StatefulProgrammableSwitch(this.name)
+  this._service = new Service.StatelessProgrammableSwitch(this.name)
 
   var that = this
 
