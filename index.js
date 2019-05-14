@@ -7,7 +7,7 @@ module.exports = function (homebridge) {
   Service = homebridge.hap.Service
   Characteristic = homebridge.hap.Characteristic
 
-  homebridge.registerAccessory('homebridge-stateful-button-http', 'StatefulHttpButton', HttpButton)
+  homebridge.registerAccessory('homebridge-stateful-button-http', 'StatefulHttpButton', StatefulHttpButton)
 }
 
 function StatefulHttpButton(log, config) {
