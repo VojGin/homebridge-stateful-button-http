@@ -1,7 +1,7 @@
 {
   "name": "homebridge-stateful-button-http",
   "version": "0.0.1",
-  "description": "Get input from buttons via http. Plugin for Homebridge: https://github.com/nfarina/homebridge",
+  "description": "Get input from stateful buttons via http. Plugin for Homebridge: https://github.com/nfarina/homebridge",
   "license": "ISC",
   "keywords": [
     "homebridge-plugin"
